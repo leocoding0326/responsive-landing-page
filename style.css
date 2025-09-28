@@ -29,7 +29,7 @@ p {
     line-height: 1.5rem;
 }
 
-h2, h3 {
+h2, h3, h4 {
     color: #984C7F;
 }
 
@@ -62,7 +62,7 @@ header {
     flex-wrap: wrap;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .nav-links {
     flex-direction: column;
     align-items: center;
@@ -89,15 +89,20 @@ header h1 {
     margin: 1rem;
 }
 
+.hero-right {
+    flex-grow: 1;
+    min-width: 300px;
+}
+
 .hero img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
-    flex-grow: 2;
 }
 
 .hero-left {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 1rem;
 }
