@@ -1,0 +1,17 @@
+/*Color Palette 1 - Vibrant and Playful */
+
+/*Primary Color: #A4006D  for primary buttons and highlights
+Secondary Color: #984C7F for secondary buttons and sections headers
+Neutral Color: #F4F4F4  for backgrounds and containers
+Accent Color: #B11E80  for call-to-action buttons and important highlightsn */
+
+/* Universal Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
