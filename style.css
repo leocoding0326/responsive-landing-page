@@ -1,6 +1,6 @@
 /*Color Palette 1 - Vibrant and Playful */
 
-/*Primary Color: #A4006D  for primary buttons and highlights
+/*Primary Color: #C00080  for primary buttons and highlights
 Secondary Color: #984C7F for secondary buttons and sections headers
 Neutral Color: #F4F4F4  for backgrounds and containers
 Accent Color: #B11E80  for call-to-action buttons and important highlightsn */
@@ -11,16 +11,67 @@ Accent Color: #B11E80  for call-to-action buttons and important highlightsn */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
     font-family: 'Arial', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    color: #984C7F;
 }
 
 /* Header Styles */
 
 header {
     width: 100%;
-    height: 100px;
+    min-height: 5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 3%;
+    gap: 1.5rem;
+    padding: 1.5rem 2rem;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 450px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+    
+}
+
+header h1 {
+    color: #C00080;
+    font-size: 2.5rem;
+    flex-grow: 2;
+    font-size: clamp(2rem, 6vw, 3rem);
+}
+
+/*Hero Section Styles */
+
+.hero {
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+.hero img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
 }
