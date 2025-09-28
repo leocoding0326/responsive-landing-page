@@ -14,4 +14,11 @@ Accent Color: #B11E80  for call-to-action buttons and important highlightsn */
     font-family: 'Arial', sans-serif;
 }
 
+/* Header Styles */
 
+header {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
