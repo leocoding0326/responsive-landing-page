@@ -24,6 +24,10 @@ a {
     color: #984C7F;
 }
 
+h2, h3 {
+    color: #984C7F;
+}
+
 /* Header Styles */
 
 header {
@@ -75,8 +79,12 @@ header h1 {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+    flex-grow: 2;
+}
 
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
-.hero-right {
-    text-align: center;
-}
+
