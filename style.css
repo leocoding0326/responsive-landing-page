@@ -3,7 +3,7 @@
 /*Primary Color: #C00080  for primary buttons and highlights
 Secondary Color: #984C7F for secondary buttons and sections headers
 Neutral Color: #F4F4F4  for backgrounds and containers
-Accent Color: #B11E80  for call-to-action buttons and important highlightsn */
+Accent Color: #CD2394 for call-to-action buttons and important highlightsn */
 
 /* Universal Styles */
 
@@ -22,10 +22,24 @@ html, body {
 
 a {
     color: #984C7F;
+
+}
+
+p {
+    line-height: 1.5rem;
 }
 
 h2, h3 {
     color: #984C7F;
+}
+
+.primary-button {
+    background-color: #CD2394 ;
+    font-weight: bold;
+    color: white;
+    padding: 0.7rem;
+    width: fit-content;
+    border-radius: 25px;
 }
 
 /* Header Styles */
@@ -87,4 +101,3 @@ header h1 {
     flex-direction: column;
     gap: 1rem;
 }
-
