@@ -29,6 +29,10 @@ p {
     line-height: 1.5rem;
 }
 
+cite {
+    font-weight: bold;
+}
+
 h2, h3, h4 {
     color: #984C7F;
 }
@@ -41,6 +45,7 @@ h2, h3, h4 {
     width: fit-content;
     border-radius: 25px;
 }
+
 
 /* Header Styles */
 
@@ -155,3 +160,50 @@ header h1 {
   }
 }
 
+/* Pricing Section Styles */
+
+/* Testimonials aka left Section Styles */
+
+.testimonials-container h2 {
+    margin-bottom: 2rem;
+    align-self: center;
+}
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 2rem;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.testimonial img {
+    max-width: 25%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.testimonial blockquote {
+    font-style: italic;
+    flex-grow: 1;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 800px) {
+  .testimonials-container {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  .testimonial {
+    flex-direction: column;
+    text-align: center;
+    
+}
+}
