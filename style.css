@@ -106,3 +106,36 @@ header h1 {
     flex-wrap: wrap;
     gap: 1rem;
 }
+
+/* Services Section Styles */
+
+.services {
+    width: 100%;
+    background-color: #F4F4F4;
+    padding: 2rem 0;
+    margin-top: 2rem;
+    height: 400px;
+    text-align: center;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    padding-top: 2rem;
+}
+
+.service-item h4 {
+    margin-bottom: 0.5rem;
+}
+
+.service-item img {
+    max-width: 25%;
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 2rem;;
+}
+
