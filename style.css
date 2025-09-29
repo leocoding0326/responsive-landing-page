@@ -62,12 +62,15 @@ header {
     flex-wrap: wrap;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 415px) {
   .nav-links {
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
   }
+    header h1 {
+        text-align: center;
+    }
     
 }
 
