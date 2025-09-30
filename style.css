@@ -252,7 +252,7 @@ header h1 {
         text-align: center;
         }
         .price-grid {
-        grid-template-columns: minmax(230px, 200px);
+        grid-template-columns: minmax(200px, 230px);
         gap: 4rem;
         margin: 0;
         padding-top: 3rem;
