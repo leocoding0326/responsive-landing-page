@@ -280,12 +280,11 @@ header h1 {
 
 footer {
     width: 100%;
-    align-items: center;
     background-color: #503547;
 }
 .footer-grid {
     display: grid;
-    grid-template-columns: repeat(2, 40%);
+    grid-template-columns: repeat(2, 1fr);
     padding: 3rem;
     align-items: center;
     justify-content: center;
