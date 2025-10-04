@@ -37,8 +37,8 @@ h2, h3, h4 {
     color: #984C7F;
 }
 
-.primary-button {
-    background-color: #CD2394 ;
+.primary-button,
+.secondary-button {
     font-weight: bold;
     color: white;
     padding: 0.7rem;
@@ -47,14 +47,13 @@ h2, h3, h4 {
     border: none;
 }
 
+.primary-button {
+    background-color: #CD2394;
+    
+}
+
 .secondary-button {
-    background-color: #554750 ;
-    font-weight: bold;
-    color: white;
-    padding: 0.7rem;
-    max-width: fit-content;
-    border-radius: 25px;
-    border: none;
+    background-color: #554750;
 }
 
 /* Header Styles */
